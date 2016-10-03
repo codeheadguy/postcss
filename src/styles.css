@@ -1,0 +1,44 @@
+body {
+	background-color: red;
+	color: color(steelblue a(50%));
+	font-size: 20px;
+}
+
+@media(width <= 1500px) {
+	.container {
+		width: 130px;
+	} 
+}
+
+:root {
+	--color-prim: #ddd;
+	--color-sec: #ebebeb;
+}
+
+h1 {
+	color: var(--color-prim);
+	font-size: 30px;
+}
+
+.nav {
+	display: flex;
+}
+
+.icon-gear {
+	background: url('../svg/icons.svg#gear');
+}
+
+.icon-hammer {
+	background: url('../svg/icons.svg#hammer');
+}
+
+
+.icon-heart {
+	background: url('../svg/icons.svg#heart');
+}
+
+
+.icn {
+	width: 140px;
+	height: 140px;
+}
